@@ -5,7 +5,7 @@ require('dotenv').config();
 // Express.js server
 const express = require('express');
 // All routes as defined in the controllers folder
-const routes = require('./controllers/');
+const routes = require('./controllers');
 // Sequelize connection to the database
 const sequelize = require('./config/connection');
 // Handlebars template engine for front-end
