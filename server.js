@@ -22,7 +22,7 @@ const hbs = exphbs.create({ helpers });
 
 // Initialize sessions
 const sess = {
-    secret: process.env.DB_SESSION_SECRET,
+    secret: process.env.DB_SESSION_SECRET || 'Mongolia123!',
     cookie: { maxAge: 7200000 },
     resave: false,
     saveUninitialized: true,
