@@ -1,7 +1,3 @@
-// An index file to gather the API routes and export them for use
-
-// Dependencies
-// Server connection
 const router = require('express').Router();
 // User Routes
 const userRoutes = require('./user-routes');
